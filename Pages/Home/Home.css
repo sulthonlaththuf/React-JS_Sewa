@@ -1,0 +1,12 @@
+/* Set additional styling options for the columns*/
+.column {
+  float: left;
+  width: 50%;
+  /* -webkit-text-stroke: 1px black; */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
